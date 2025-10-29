@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chu Uyen Nhi - Personal Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">  
+    <style>
+        body {
+           font-family: 'Nunito', sans-serif;
+           margin: 0;
+           background-color: #F5D2D2;
+           color: #da8c8c;
+        }
+        header, footer {
+            background-color: #F5D2D2;
+            color: #b16b6b;
+            text-align: center;
+            padding: 1em 0;
+        }
+        
+        .contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-btn {
+  display: block;
+  text-align: center;
+  background-color: #b16b6b;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.contact-btn:hover {
+  background-color: #a14b4b;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+        section {
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .note {
+            background-color: #e8f0fe;
+            border-left: 5px solid #b16b6b;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            resize: none;
+        }
+        button {
+            margin-top: 10px;
+            background-color: #b16b6b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;7
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #b16b6b;
+        }
+
+        .header-image img {
+            display: block;
+            margin: 0 auto;          
+            width: 60%;              
+            max-width: 600px;        
+            height: auto;           
+            border-radius: 15px;     
+            object-fit: contain;    
+        }
+
+    </style>
+    <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const aboutSection = document.querySelector("#about .about-container");
+    const aboutText = document.querySelector("#about .about-text");
+    const aboutPhoto = document.querySelector("#about .about-photo");
+
+    aboutSection.style.display = "flex";
+    aboutSection.style.alignItems = "center";
+    aboutSection.style.justifyContent = "space-between";
+    aboutSection.style.gap = "30px";
+
+    aboutText.style.flex = "1";
+    aboutText.style.fontSize = "1.1em";
+    aboutText.style.lineHeight = "1.6";
+    aboutText.style.color = "#b16b6b";
+
+    const img = aboutPhoto.querySelector("img");
+    img.style.width = "100px";
+    img.style.height = "200px";
+    img.style.borderRadius = "10px";
+    img.style.objectFit = "cover";
+    img.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)";
+  });
+</script>
+</head>
+<body>
+
+<header>
+  <div class="header-image">
+    <img src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/571026241_122221231364134459_7914981056801416968_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=zXxBfbVQUrYQ7kNvwFuqOUa&_nc_oc=AdmhFF1GKOqHi65bdyWTEyE4SDk5_JBOb3BNXRvb72ykS8Rx_nv_vr9eEBMNMmG-zDw&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=_-3lX2RpbXv0GDCzZV8bRA&oh=00_AfdS7Zkwwa_zffs_1eUOD68MHV6bnd3LB0gXSrJ1fbDk2g&oe=69013C47" 
+         alt="Header image of Chu Uyen Nhi">
+  </div>
+  <p>
+    Welcome to my personal webpage. This is where you learn more about my personal work ranging <br>
+    from media related product, social work and also passion project. <br>
+    <strong>Don't hesitate to contact me for collaboration!!</strong>
+  </p>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <div class="about-text">
+      <p>Hello! I'm Nhi, a student passionate about social media, creativity and also social impact. 
+      I love building meaningful projects that connect people and inspire positive change.</p>
+    </div>
+    <div class="about-photo">
+      <img src="https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/484323864_1207581194320597_8311387711552129249_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeF_fUT8CPmy6l6RhAZSP2SJHIihrEKr86YciKGsQqvzpnYmMAjz7henvz9iuWymx9lxtI5VlwY_xmf4B0HbyBI7&_nc_ohc=ZLdOH5hdVyUQ7kNvwGIDzen&_nc_oc=AdnbR168VcpLA3yWkoH9WnmGGnAWmW7TQkKm7BKUodnGXvWukTbe0ogM_KA4a1L_SyY&_nc_zt=23&_nc_ht=scontent.fsgn2-3.fna&_nc_gid=9b_3P-RKy8ulrkqxbMFtRA&oh=00_AfdJBdti-7SRB88_vqF_bpiPV9_KBDXQoSd5KxVBON7I8w&oe=68FFDE3F" alt="Nhi's photo">
+    </div>
+  </div>
+</section>
+
+<section id="background">
+    <h2>Background & Skills</h2>
+    <ul>
+        <li>Education: Alpha School (2018-2025) Fulbright University Vietnam (2025-now)</li>
+        <li>Skills: Content creation, communication, video production, photography</li>
+        <li>Hobbies: Trekking, photography, and exploring new cultures through food</li>
+    </ul>
+</section>
+
+<section id="portfolio">
+    <h2>Projects</h2>
+    <p>Here are some of my project based on difference catagories</p>
+    <div class="contact-buttons">
+        <a href="https://chunhimeo.wixsite.com/chuuyennhi/recording-video-editing" class="contact-btn">Fliming and video Editing</a>
+        <a href="https://chunhimeo.wixsite.com/chuuyennhi/soical-media" class="contact-btn">Viet Fusion - My passion project about<br>Vietnamese culture</a>
+        <a href="Social Impact.html" class="contact-btn">Social Impact Project</a>
+    </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="contact-buttons">
+<a href="https://www.facebook.com/nhi.chu.564635" class="contact-btn">🌐 Facebook</a>
+<a href="https://www.instagram.com/unc.nhi/" class="contact-btn">📸 Instagram</a>
+<a href="mailto:nhi.chu.250068@student.fulbright.edu.vn" class="contact-btn">✉️ Outlook</a>
+  </div>
+</section>
+
+<section id="notebook">
+    <h2>My Notebook</h2>
+    <p>Write a note below and click “Add Note”:</p>
+    <textarea id="noteInput" placeholder="Type your note here..."></textarea><br>
+    <button id="addNoteBtn">Add Note</button>
+    <div id="notesList"></div>
+</section>
+
+<footer>
+    <p> 2025 Chu Uyen Nhi | Fulbright University Vietnam</p>
+</footer>
+
+<script>
+    // Notebook functionality
+    const addNoteBtn = document.getElementById("addNoteBtn");
+    const noteInput = document.getElementById("noteInput");
+    const notesList = document.getElementById("notesList");
+
+    addNoteBtn.addEventListener("click", function() {
+        const noteText = noteInput.value.trim();
+        if (noteText === "") {
+            alert("Please type a note before adding!");
+            return;
+        }
+
+        const note = document.createElement("div");
+        note.classList.add("note");
+        note.textContent = noteText;
+        notesList.appendChild(note);
+
+        noteInput.value = ""; // Clear input field
+    });
+</script>
+
+</body>
+</html>
